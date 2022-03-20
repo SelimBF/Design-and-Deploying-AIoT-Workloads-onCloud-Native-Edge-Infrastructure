@@ -23,12 +23,12 @@ model = anomaly.QuantileThresholder(
      )
 
 auc = metrics.ROCAUC()
-
+print (auc)
 for x, y in X_y:
      score = model.score_one(x)
-     model = model.learn_one(x)
 
-auc = auc.update(y, score)
+     model = model.learn_one(x)
+     auc = auc.update(y, score)
 
 print (auc)
 
