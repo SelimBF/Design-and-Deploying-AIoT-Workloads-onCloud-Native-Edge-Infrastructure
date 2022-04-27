@@ -7,7 +7,8 @@ def parser(x):
     return datetime.strptime('190' + x, '%Y-%m')
 
 
-series = read_csv('C:/Users/selim/Desktop/PFE/shampoo.csv', header=0, parse_dates=[0], index_col=0, squeeze=True, date_parser=parser)
+series = read_csv('C:/Users/selim/Desktop/PFE/shampoo.csv', header=0, parse_dates=[0], index_col=0, squeeze=True,
+                  date_parser=parser)
 print(series.head())
 series.plot()
 pyplot.show()
