@@ -3,6 +3,4 @@ End of study whole project contents
 
 This approach is based on AiOT perspective developed  by Benfradj selim 
 
-current project Level : Docs & Design 
-
-kmalna 
+THIS PROJECT WAS PRESENTED IN TEKUP UNIVERSITY IN 07/07/2022 
